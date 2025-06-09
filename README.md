@@ -1,4 +1,8 @@
-# myapp
+## ⚠️ Disclaimer
+
+This project was created as part of a self-paced course on generative AI in mobile development.
+The Gemini API calls have been removed to avoid accidental quota usage or key exposure.
+To test with your own key, uncomment relevant code in `api_service.dart` and supply a valid key from [Google AI Studio](https://makersuite.google.com/app).
 
 A new Flutter project.
 
