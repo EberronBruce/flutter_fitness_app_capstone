@@ -30,7 +30,7 @@ class ApiService {
     final prompt =
         'Generate a diet and exercise plan based on the following parameters: '
         'Height: $height, Weight: $weight, Goal: $goal, Timeline: $timeline, Food Habits: $foodHabits';
-    final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
+    final model = GenerativeModel(model: 'gemini-2.0-flash', apiKey: apiKey);
     final content = [Content.text(prompt)];
     // Await the asynchronous response
     final response = await model.generateContent(
